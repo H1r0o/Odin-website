@@ -69,6 +69,11 @@ button {
 }
 
 /* druga sekcja */
+#secontSection {
+    margin-bottom: 30px;
+    height: 250px;
+}
+
 #rectangleSection {
     display: flex;
     justify-content: center;
@@ -92,5 +97,32 @@ button {
 
 #secondSectionHeader {
     text-align: center;
-    padding: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Sekcja trzecia */
+
+#thirdSection {
+    background-color: #E5E7EB;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#thirdSectionContent {
+    width: 500px;
+}
+
+#thirdSectionContent>p {
+    font-style: italic;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+#thirdSectionContent>h3 {
+    justify-self: right;
+    padding-top: 10px;
 }
