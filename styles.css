@@ -126,3 +126,33 @@ button {
     justify-self: right;
     padding-top: 10px;
 }
+
+/* Sekcja czwarta */
+
+#fourthSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+#contenBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 80%;
+    border-radius: 8px;
+    height: 100px;
+    color: white;
+    gap: 60px
+}
+
+#contentButton {
+    border: 2px solid white;
+}
+
+#contentBoxLeft>h6 {
+    font-size: 12px;
+    font-weight: 100;
+}
