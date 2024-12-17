@@ -69,3 +69,28 @@ button {
 }
 
 /* druga sekcja */
+#rectangleSection {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.smallContainer {
+    width: 100px;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.rectangle {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+#secondSectionHeader {
+    text-align: center;
+    padding: 30px;
+}
